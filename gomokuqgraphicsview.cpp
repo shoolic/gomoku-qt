@@ -5,7 +5,7 @@
 
 GomokuQGraphicsView::GomokuQGraphicsView()
 {
-
+    setStyleSheet("background: transparent");
     setRenderHint(QPainter::Antialiasing);
 }
 
