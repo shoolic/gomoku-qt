@@ -63,19 +63,20 @@
     <property name="title">
      <string>Game</string>
     </property>
+    <addaction name="actionNew"/>
     <addaction name="actionConfig"/>
    </widget>
    <addaction name="menuGomoku"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionNew">
-   <property name="text">
-    <string>New</string>
-   </property>
-  </action>
   <action name="actionConfig">
    <property name="text">
     <string>Config</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>Reset</string>
    </property>
   </action>
  </widget>

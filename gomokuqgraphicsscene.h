@@ -47,7 +47,7 @@ private:
 // EXPAND
     QRect boardRect;
     static const int detectExpandSize = 1;
-    static const int expandSize = 2;
+    static const int expandSize = 3;
     void tryExpand(QPoint p);
     void expandTop();
     void expandBottom();

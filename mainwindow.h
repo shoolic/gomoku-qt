@@ -21,6 +21,8 @@ private slots:
     void on_actionConfig_triggered();
     void changeInfo(QString);
 
+    void on_actionNew_triggered();
+
 private:
     Ui::MainWindow *ui;
     GomokuQGraphicsView *view;
